@@ -1,8 +1,7 @@
-body{
-    background-color: #000000;
-    color: #F6F6F6;
+body {
+  background-color: #000000;
+  color: #f6f6f6;
 }
-
-strong{
-    color: #22D4FD;
+.tituloDestaque {
+  color: #22d4fd;
 }
