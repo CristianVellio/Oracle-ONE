@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+:root {
+    --color-primario: #000000;
+    --color-secundario: #F6F6F6;
+    --color-terciario: #22D4FD;
+    --color-hover: #272727;
+
+    --fuente-krona: 'Krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+}
+
+.header{
+    padding: 2% 0% 0% 15%;
+}
+
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+.header__menu__link{
+    font-family: var(--fuente-montserrat);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-terciario);
+    text-decoration: none;
+
+}
+
+
+
+.presentacion {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentacion__contenido{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.presentacion__contenido__titulo{
+    font-size: 36px;
+    font-family: var(--fuente-krona);
+}
+
+.titulo-destaque {
+    color: var(--color-terciario); ;
+}
+
+.presentacion__contenido__texto{
+    font-size: 24px;
+    font-family: var(--fuente-montserrat);
+}
+
+.presentacion__enlaces{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.presentacion__enlaces__subtitulo{
+    font-family: var(--fuente-krona);
+    font-weight: 400;
+    font-size: 24px;
+}
+.presentacion__enlaces__link{
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      border: 2px solid var(--color-terciario);
+      width: 378px;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 24px;
+      font-weight: 600;
+      padding: 21.5px 0;
+      text-decoration: none;
+      color: var(--color-secundario);
+      font-family: var(--fuente-montserrat);
+}
+
+.presentacion__enlaces__link:hover{
+    background-color: var(--color-hover);
+}
+
+.footer{
+    color:var(--color-primario);
+    background-color: var(--color-terciario);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fuente-montserrat);
+    font-size: 24px;
+    font-weight: 400;
+}
