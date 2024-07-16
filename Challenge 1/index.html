@@ -3,10 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alura Encriptador Challenge</title>
+    <title>Encrypter Challenge</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
+      <div class="contenedor_main">
+        <header class="encabezado">
+            <h1 class="encabezado_titulo">Encriptador</h1>
+        </header>
+
+        <section class="contenedortextbox animacion_contenedor">
+            <textarea class="contenedortextbox_textoInsert animacion_contenedor" name="texto" id="textarea" cols="30"
+                rows="10" placeholder="escriba el mensaje" autofocus></textarea>
+            <div class="informacion">
+                <p class="informacion_parrafo"> ! solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="cont__btn">
+                <button class="btn btn_encriptar" id="encriptar">cifrar</button>
+                <button class="btn btn_desencriptar" id="desencriptar">descifrar</button>
+            </div>
+        </section>
+
+        <section class="contenedor_result animacion_contenedor">
+            <textarea style="display:none;" class="contenedor_result_texto" name="texto" id="resultado" cols="30"
+                rows="10" placeholder="Escribe aquí tu texto"></textarea>
+            <div id="ocultar">
+                <img src="./img/Muñeco.png" alt="Muneco" class="ocultar_muneco">
+                <h2 class="ocultar__titulo">no se encontro el mensaje</h2>
+                <p class="ocultar__parrafo">ingrese el mensaje a cifrar o descifrar</p>
+            </div>
+            <div class="cont__btn__copiar">
+                <button class="btn btn_copiar" id="copiar" hidden>copiar</button>
+            </div>
+        </section>
+
+        <footer class="contenedor_foot">
+            <h3>Cristian Vellio&copy -2024 - Todos los derechos reservados
+            </h3>
+        </footer>
     <script src="./main.js"></script>
   </body>
 </html>
