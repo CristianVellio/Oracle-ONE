@@ -42,3 +42,11 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 ## Extras
 
 - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, es decir, que tenga la misma funcionalidad del Ctrl+C o de la opción "copiar" del menú de las aplicaciones.
+
+## Link al proyecto
+
+[demo](https://encrypter-oracle-one.vercel.app/)
+
+## Integrantes
+
+[Cristian Vellio](https://github.com/CristianVellio)
